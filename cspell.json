@@ -1,0 +1,16 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "chromedriver",
+        "pycache",
+        "urlparse",
+        "venv",
+        "webdriver",
+        "xattr"
+    ],
+    "ignoreWords": [],
+    "import": []
+}

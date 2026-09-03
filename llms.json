@@ -1,0 +1,49 @@
+{
+  "name": "Demo Selenium Python for Google Search",
+  "summary": "A beginner-friendly walkthrough of Selenium WebDriver browser automation in Python, teaching locator strategies and assertions for a Google Search results page. Must never be executed against live google.com.",
+  "description": "This repo demonstrates Selenium WebDriver browser automation testing with Python, using a Google Search results page as the example. Because Google's Terms of Service restrict automated querying of Google Search, the code teaches patterns only: the home page title check, the search box locator and query submission, and the first-result click, all as correct but never-to-be-run Python/Selenium code.",
+  "repository": "https://github.com/testingexamples/demo-selenium-python-for-google-search/",
+  "license": "GPL-2.0-or-later",
+  "sections": [
+    {
+      "title": "Docs",
+      "links": [
+        {
+          "title": "README",
+          "url": "./README.md",
+          "description": "Install, run (do-not-run caution), and troubleshooting instructions."
+        },
+        {
+          "title": "Spec",
+          "url": "./spec/index.md",
+          "description": "Single source of truth for the exact three checks and selectors."
+        },
+        {
+          "title": "Citation",
+          "url": "./CITATION.cff",
+          "description": "How to cite this software."
+        }
+      ]
+    },
+    {
+      "title": "Source",
+      "links": [
+        {
+          "title": "demo.py",
+          "url": "./src/demo.py",
+          "description": "The Selenium WebDriver demo script itself (read-only reference; do not execute against live google.com)."
+        }
+      ]
+    },
+    {
+      "title": "Optional",
+      "links": [
+        {
+          "title": "AGENTS.md",
+          "url": "./AGENTS.md",
+          "description": "Instructions for AI coding agents working in this repo, including the non-negotiable do-not-run policy."
+        }
+      ]
+    }
+  ]
+}
